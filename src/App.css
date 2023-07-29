@@ -1,0 +1,26 @@
+.errorMessage {
+  font-size: 13px;
+  color: red;
+}
+
+.inputError {
+  border: 1px solid #ff0000 !important;
+}
+
+.form-control {
+  padding: 10px 10px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 400 !important;
+  width: 100%;
+  color: #000;
+  transition: width 0.5s;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-label {
+   margin-bottom: none;
+  font-size: 13px;
+}
